@@ -1,0 +1,5 @@
+<h2><%= @task.title %></h2>
+<p><%= @task.details %></p>
+<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter"><label for="task">This task is not completed yet</label></br>
+<%= link_to "Edit a task", task_edit_path(@task) %></br>
+<%= link_to "Back to list", tasks_path %>
